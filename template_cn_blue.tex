@@ -118,7 +118,7 @@
 \section{发表论文}
 \subsection{已发表的论文}
 
-\cvitem{[CLUSTER'19]}{\textbf{Nannan Zhao}, Vasily Tarasov, Hadeel Albahar, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, Amit S. Warke, Mohamed Mohamed, and Ali R. Butt. \textit{Large-Scale Analysis of the Docker Hub Dataset}. IEEE International Conference on Cluster Computing (Cluster'19), Albuquerque, NM, September 2019.}
+\cvitem{[Cluster'19]}{\textbf{Nannan Zhao}, Vasily Tarasov, Hadeel Albahar, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, Amit S. Warke, Mohamed Mohamed, and Ali R. Butt. \textit{Large-Scale Analysis of the Docker Hub Dataset}. IEEE International Conference on Cluster Computing (Cluster'19), Albuquerque, NM, September 2019.}
 
 \cvitem{[CLOUD '19]}{\textbf{Nannan Zhao}, Vasily Tarasov, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, Amit Warke, Mohamed Mohamed, and  Ali Butt. \textit{Slimmer: Weight Loss Secrets for Docker Registries}. IEEE 12th International Conference on Cloud Computing (CLOUD), Milan, Italy, 2019.}
 % 
@@ -140,7 +140,7 @@
 
 \cvitem{[MSST '15]}{\textbf{Nannan Zhao}, Jiguang Wan, Jun Wang, and Changsheng Xie. 
 	\textit{GreenCHT: A Power-Proportional Replication Scheme for Consistent Hashing based Key Value Storage Systems}.
-	IEEE International Conference on Massive Storage Systems and Technology (MSST’15, short paper), Santa Clara, CA.}
+	IEEE International Conference on Massive Storage Systems and Technology (MSST’15), Santa Clara, CA.}
 
 \cvitem{[TPDS '15]}{Jiguang Wan, Xiaoyang Qu, \textbf{Nannan Zhao}, Jun Wang, and Changsheng Xie. 
 	\textit{ThinRAID: Thinning Down RAID Array for Energy Conservation}.
@@ -152,7 +152,7 @@
 
 \subsection{正在审稿的论文}
 
-\cvitem{[FAST]}{\textbf{Nannan Zhao}, Vasily Tarasov, Hadeel Albahar, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, and Ali R. Butt. \textit{Sift: A Docker Registry with Deduplication Support}. USENIX Conference on File and Storage Techniques (FAST’20).}
+\cvitem{[ATC]}{\textbf{Nannan Zhao}, Vasily Tarasov, Hadeel Albahar, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, and Ali R. Butt. \textit{DupHunter: Flexible High-Performance Deduplication for Docker Registries}. (ATC’20).}
 
 \cvitem{[TPDS]}{\textbf{Nannan Zhao}, Vasily Tarasov, Hadeel Albahar, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, Amit S. Warke, Mohamed Mohamed, and Ali R. Butt. \textit{Large-Scale Analysis of Docker Images}. IEEE Transactions on Parallel and Distributed Systems (TPDS).}
 
@@ -181,12 +181,12 @@
 \section{实习经历}
 %\cventry{05/17–08/17}{IBM 研究院}{美国}{加州, Almaden}{}
 \cventry{17/05–17/08}{IBM 研究院--Almaden}{美国加州圣何塞}{云存储组}{}{}                % arguments 3 to 6 are optional
-\cvlistitem{项目指导老师: Vasily Tarasov. \emph{https://researcher.watson.ibm.com/researcher/view.php?person=us-vtarasov}}
+%\cvlistitem{项目指导老师: Vasily Tarasov. \emph{https://researcher.watson.ibm.com/researcher/view.php?person=us-vtarasov}}
 \cvlistitem{研究项目：大规模Docker镜像分析和IBM数据中心中容器镜像存取负载分析.}
 
 \section{教学经验}
 
-\cventry{16/08–18/12}{教学助理}{弗吉尼亚大学}{}{}{}                % arguments 3 to 6 are optional
+\cventry{16/08–18/12}{教学助理(TA)}{弗吉尼亚理工大学}{}{}{}                % arguments 3 to 6 are optional
 \cvlistitem{课程：计算机系统}
 
 \section{专业技能}
@@ -199,14 +199,14 @@
 
 \section{科研项目}
 
-\cvline{18/09-现在}{针对容器编排系统的存储优化设计}
+\cvline{19/09-现在}{针对容器编排系统的存储优化设计}
 \cvlistitem{研究发现在微服务应用中，微服务之间是有关联的。如果在容器部署或者调度时忽视这种关联性，那么系统性能会受到较大影响。}
 \cvlistitem{分布式存储系统通常通过容器存储接口(CSI)为容器编排系统提供存储服务。研究发现上层容器编排系统和底层存储系统之间是透明的。
 	如果底层存储系统能够获得上层应用的特性（例如关联性）并且利用这些特性来优化数据布局，那么微服务应用内部网络传输开销会大大降低。}
 \cvline{18/12-19/09}{Docker镜像存储系统的重删设计}
 %\cvlistitem{通过对Docker Hub存储的50TB的容器镜像解压后分析发现，97\%的文件都是冗余，而且如果将冗余文件删除，系统会节省一半的存储空间。}
 \cvlistitem{研究发现重删技术会极大影响Docker registry存储系统的性能，特别是容器镜像重构会对镜像传输造成高达200\%额外开销。}
-\cvlistitem{提出了：利用用户访问特征来预测并提前进行容器镜像重构来降低重构带来的开销；将重删技术与副本技术相结合来提供不同的重删模式来满足不同用户对性能和存储空间需求。（FAST'20 审稿中）}
+\cvlistitem{提出了：利用用户访问特征来预测并提前进行容器镜像重构来降低重构带来的开销。（ATC'20 审稿中）}
 \cvline{18/05-18/12}{内存压缩技术设计}
 \cvlistitem{研究发现操作系统级的压缩技术当缺页时通过软中断来访问压缩后的数据，这会降低应用程序的性能，而硬件级压缩技术由于无法获得内存利用率的信息会压缩所有的内存页而且其压缩率比较底。}
 \cvlistitem{提出一种操作系统和硬件相结合的压缩技术来降低操作系统中断所造成的额外开销同时获得硬件级压缩的压缩性能。（NSF Funding:CCF-1919113）}
